@@ -1188,3 +1188,69 @@ section .container {
 .credits a:hover {
   color: #fff;
 }
+
+
+
+/*--------------------------------------------------------------
+# chatroom
+--------------------------------------------------------------*/
+.chatroom{
+  width: 100%;
+  padding: 100px;
+  margin: auto;
+  height: calc(100vh - 100px);
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.chatroom-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 70%;
+  left: 0;
+  overflow: auto;
+  height: 100%;
+}
+
+.chatroom-container::-webkit-scrollbar{
+  display: none;
+}
+
+.chatroom .messages{
+  padding: 30px;
+  font-size: large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.chatroom .chat-answer{
+  width: 60%;
+  font-weight: bold;
+  font-size: large;
+  padding: 20px;
+}
+
+.chatroom .question_text{
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+  height: 40px;
+  font-size: 25px;
+  padding: 5px 20px;
+}
+
+.chatroom .chat-question{
+  gap:5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.chatroom .question_button{
+  border-radius: 10px;
+}
+
+.question_button:hover{
+  background: rgba(80, 80, 80, 0.8);
+}
+.question_button:active{
+  background: rgba(60, 60, 60, 0.2);
+}

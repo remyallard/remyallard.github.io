@@ -10,6 +10,7 @@
   <meta content="" name="keywords">
   <!--Send Email-->
   <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <script src="assets/js/chat.js" type="module"></script>
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
@@ -52,12 +53,12 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link active" href="#header">Home</a></li>
+          <li><a class="nav-link" href="#meet-remy">Meet Remy</a></li>
           <li><a class="nav-link" href="#about">About</a></li>
           <li><a class="nav-link" href="#resume">Resume</a></li>
           <!-- <li><a class="nav-link" href="#services">Services</a></li> -->
           <li><a class="nav-link" href="#portfolio">Projects</a></li>
           <li><a class="nav-link" href="#contact">Contact</a></li>
-          <li><a class="nav-link" target="_blank" href="https://calendly.com/remyallardwork/30min">Meet Remy</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -102,7 +103,7 @@
             </div>
           </div>
           <p>
-            I'm currently seeking a Senior Full Stack Developer role for SAAS companies where I can leverage my skills in Python-Django and React.js/Node.js. I'm passionate about building scalable solutions to startups.
+            I'm currently seeking a Developer/Engineer role at SAAS companies where I can leverage my skills with Python-Django and React.js/Node.js. I'm passionate about providing creative solutions to SAAS startups.
           </p>
         </div>
       </div>
@@ -603,6 +604,24 @@
         <div class="text-center"><button type="submit">Send Message</button></div>
       </form>
 
+    </div>
+  </section><!-- End Contact Section -->
+
+  <!-- ======= Chatter Section ======= -->
+  <section id="meet-remy" class="chatroom">
+    <div class="chatroom-container">
+      <h1>I'm Remy Allard. Want to know more about me?</h1>
+      <h3>Ask anything including my background, my proficiency, my experience no sensitive personal information ... </h3>
+      <div class="messages">
+        <div class="chat-answer">
+          <div id="answer_text" class="answer_text"></div>
+        </div>
+        <div class="chat-question">
+          <input type="text" id="question_text" class="question_text" />
+          <button id="answer_button" class="question_button">Answer</button>
+          <button id="stop_button" class="question_button">Stop</button>
+        </div>
+      </div>
     </div>
   </section><!-- End Contact Section -->
 
