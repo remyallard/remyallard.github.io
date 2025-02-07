@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset 
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 
+                        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+  <!-- HOME / MAIN PAGE -->
+  <url>
+    <loc>https://oblist.com/index.html</loc>
+    <lastmod>2025-02-06</lastmod>
+    <priority>1.0</priority>
+  </url>
+  
+  <!-- (OPTIONAL) You can include anchor sections if you want, 
+       but search engines generally treat them as the same page.
+       <url>
+         <loc>https://oblist.com/index.html#about</loc>
+         <lastmod>2025-02-06</lastmod>
+         <priority>0.8</priority>
+       </url>
+  -->
+
+  <!-- PORTFOLIO PROJECT PAGES -->
+  <!-- If each project has its own .html file, list them here. Adjust names as needed. -->
+  <url>
+    <loc>https://oblist.com/project1.html</loc>
+    <lastmod>2025-02-06</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://oblist.com/project5.html</loc>
+    <lastmod>2025-02-06</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://oblist.com/project3.html</loc>
+    <lastmod>2025-02-06</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- ADD OTHER PAGES OR PROJECT-DETAIL PAGES HERE -->
+  <!-- E.g., if you also have a dedicated contact.html, add it similarly: -->
+  <!--
+  <url>
+    <loc>https://oblist.com/contact.html</loc>
+    <lastmod>2025-02-06</lastmod>
+    <priority>0.8</priority>
+  </url>
+  -->
+
+</urlset>

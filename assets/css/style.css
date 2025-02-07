@@ -16,6 +16,9 @@ body {
   position: relative;
   background: transparent;
 }
+body::-webkit-scrollbar {
+  display: none;
+}
 
 body::before {
   content: "";
@@ -931,6 +934,9 @@ section .container {
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
+.portfolio-details::-webkit-scrollbar {
+  display: none;
+}
 .portfolio-details {
   padding-top: 40px;
   background: rgba(0, 0, 0, 0.8);
